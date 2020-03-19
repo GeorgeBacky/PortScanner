@@ -8,8 +8,9 @@ Simple PortScanner With Python3<br><br>
 ----------<b>Linux</b>-------------<br>
 If you are running Linux/Ubuntu download the folder or only the file and run it<br>
 with this command : python3 PortScanner.py <br>
-(First open the folder with terminal and make an ls and after you must
+(First open the folder with terminal and after make ls  and type pip install -r requirements.txt and the last thing you must
 type the command)
+
 
 ----------<b>Windows</b>-------------<br>
 If you are running Windows download the folder or only the file and run it<br>
@@ -21,6 +22,7 @@ First open the folder copy C:\USER\XX\PortScanner\ from the top bar
 
 1. Type cd C:\USER\XX\PortScanner\ 
 2. Type dir and you will see the file PortScanner.py
+3. Don't run it! First install requirements.txt with this command : pip install -r requirements.txt
 3. Type PortScanner.py or python PortScanner.py
 <br>
 <img src="portscanner.gif">
