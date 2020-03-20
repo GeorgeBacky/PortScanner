@@ -26,11 +26,13 @@ def is_port_open(host, port):
     else:
         # the connection was established, port is open!
         return True
-
+    
 # get the host from the user input
 host = input("Enter the host:").strip()
+rangePort1 = int(input("Enter the port you want to start (e.g 0):").strip())
+rangePort2= int(input("Enter the port you want to start (e.g 65535):").strip())
 # iterate over ports, from 1 to 1024
-for port in range(1, 1025):
+for port in range(rangePort1, rangePort2):
     if is_port_open(host, port):
         print(f"{GREEN}[+] {host}:{port} is open      {RESET}")
     else:
